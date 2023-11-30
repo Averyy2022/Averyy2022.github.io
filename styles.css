@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFB6C1; /* Dark Pink background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Position relative for absolute positioning of links */
+}
+
+header {
+    background-color: #fff;
+    color: #FF69B4; /* Pink text */
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #C71585; /* Darker Pink background */
+    padding: 10px;
+    color: #fff;
+}
+
+nav a {
+    color: #333;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    position: relative; /* Position relative for absolute positioning of links */
+}
+
+/* Dedicated portion for social media images */
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align to the top right */
+}
+
+.social-icon {
+    margin-bottom: 10px; /* Add some space between social icons */
+}
+
+/* Additional links at the bottom left */
+.additional-links {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.link {
+    color: #FF69B4; /* Pink color for links */
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.link:hover {
+    text-decoration: underline; /* Underline on hover for better visibility */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #C71585; /* Darker Pink background */
+    color: #333;
+}
